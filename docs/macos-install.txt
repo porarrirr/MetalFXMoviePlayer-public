@@ -1,0 +1,57 @@
+MovieFX Player — macOS
+https://github.com/porarrirr/MetalFXMoviePlayer-public/releases/latest
+
+日本語
+動作環境: Apple Silicon (M1以降) / macOS 14以降。Intel Mac非対応。
+Xcode、Swift、Homebrewなどのインストールやビルドは不要です。
+
+1. DMGを開く (ZIPの場合は展開する)。
+2. MovieFX Player.appをApplicationsへドラッグする。
+3. アプリケーションフォルダのMovieFX Playerを開く。
+4. 動画を選択する。起動後は動画のドラッグ＆ドロップや⌘Oにも対応。
+
+初回の起動許可:
+このビルドはアドホック署名のみで、Developer ID署名・Apple公証はありません。
+macOSが起動をブロックした場合は警告を閉じ、
+「システム設定」→「プライバシーとセキュリティ」→「このまま開く」を選択し、
+確認画面で「開く」を選択してください。
+公式リポジトリから取得したアプリであることを確認して許可してください。
+管理対象のMacでは組織の設定により起動を許可できない場合があります。
+macOS全体のセキュリティ設定を無効にする必要はありません。
+
+English
+Requires Apple silicon (M1 or later) and macOS 14 or later. Intel Macs are not supported.
+No Xcode, Swift, Homebrew or compilation is required.
+
+1. Open the DMG (or extract the ZIP).
+2. Drag MovieFX Player.app into Applications.
+3. Open MovieFX Player from Applications and select a video.
+   You can also drop a video into the window or press Command-O.
+
+First launch:
+This build is ad hoc signed, without Developer ID signing or Apple notarization.
+If macOS blocks it, dismiss the alert, then open System Settings > Privacy & Security
+and click Open Anyway. Confirm by clicking Open.
+Only approve the app after confirming it came from the official repository.
+Managed Macs may prevent this approval. You do not need to disable system security.
+
+简体中文
+要求: Apple Silicon (M1及以上) / macOS 14及以上。不支持Intel Mac。
+无需安装Xcode、Swift或Homebrew，也无需编译。
+
+1. 打开DMG (或解压ZIP)。
+2. 将MovieFX Player.app拖入Applications。
+3. 从应用程序文件夹打开MovieFX Player，选择视频。
+   也可拖放视频或按Command-O打开。
+
+首次启动:
+此构建仅使用临时签名，没有Developer ID签名，也未经过Apple公证。
+如果macOS阻止启动，请关闭提示，然后进入「系统设置」→「隐私与安全性」，
+点击「仍要打开」，并在确认窗口点击「打开」。
+请确认应用来自官方仓库后再允许启动。受管理的Mac可能不允许此操作。
+无需关闭系统安全设置。
+
+Apple's first-launch instructions / Appleの説明 / Apple官方说明:
+https://support.apple.com/102445
+
+License: MIT (see LICENSE.txt).
